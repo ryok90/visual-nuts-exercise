@@ -1,0 +1,18 @@
+{
+  "name": "visual-nuts-exercise",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:ryok90/visual-nuts-exercise.git",
+  "author": "Yokota <ryok90@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "all": "node src/index.js",
+    "ex1": "node src/index.js ex1",
+    "ex2": "node src/index.js ex2",
+    "test": "jest --collectCoverage --coverageReporters=text"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "jest": "^29.4.1"
+  }
+}
